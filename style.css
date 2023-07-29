@@ -1,0 +1,67 @@
+.cube_elem{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	margin: 3px;
+}
+.cont_group{
+	display: flex;
+	flex-direction: row;
+}
+.cont_0, .cont_5{
+	position: relative;
+	left: 13.5%;
+}
+/*.cont_0{
+	transform: skew(-40deg) rotateX(65deg);
+	position: relative;
+	bottom: -50px;
+	left: 205px;
+	max-width: 170px;
+}
+.cont_3{
+	transform: skewY(-50deg) rotateY(70deg);
+	position: relative;
+	top: -39px;
+	left: -58px;
+}*/
+.container{
+	background-color: black;
+	padding: 3px;
+	border-radius: 10px;
+	width: 170px;
+}
+.row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+/*Declaring colour values */
+.red{
+	background-color: red;
+}
+.white{
+	background-color: white;
+}
+.blue{
+	background-color: blue;
+}
+.orange{
+	background-color: darkorange;
+}
+.yellow{
+	background-color: yellow;
+}
+.green{
+	background-color: green;
+}
+.pink{
+	background-color: pink;
+}
+.cyan{
+	background-color: cyan;
+}
+.skyblue{
+	background-color: lightskyblue;
+}

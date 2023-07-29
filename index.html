@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rubicks Cube</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- 	<button onclick="front('clock',3)">Face Clock Wise</button>
+	<button onclick="front('anti',3)">Face Anti Clock Wise</button><br>
+	<button onclick="side('anti',2)">Side Anti Clock Wise</button>
+	<button onclick="side('clock',2)">Side Clock Wise</button> -->
+	<script>
+		for(i = 0; i<6; i++){
+			document.write("<button onclick=\"front('clock',"+i+")\">"+i+" Clock </button>");
+			document.write("<button onclick=\"front('anti',"+i+")\">"+i+" Anti </button>");
+		}
+
+	</script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
